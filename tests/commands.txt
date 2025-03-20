@@ -1,0 +1,12 @@
+// I'm adding this because I actually forgot the commands to test the lexer wasted my 1.5 hrs behind it... that's
+// why I always be adding such notes in this
+ To test the lexer output for tests/test.c file 
+
+ in terminal do like this :- 
+
+HP@BabaYaga MINGW64 /d/Projects/C Projects/CCompiler (main)
+$ gcc -o lexer src/main.c src/lexer.c
+
+HP@BabaYaga MINGW64 /d/Projects/C Projects/CCompiler (main)
+$ ./lexer
+

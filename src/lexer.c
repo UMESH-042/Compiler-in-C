@@ -256,25 +256,6 @@ if (current_char == '/') {
     return create_token(TOKEN_UNKNOWN, unknown); // Treat as identifier for now
 }
 
-// void tokenize_file(const char *filename)
-// {
-//     source = fopen(filename, "r");
-//     if (!source)
-//     {
-//         perror("Error opening file");
-//         exit(EXIT_FAILURE);
-//     }
-
-//     next_char();
-//     Token token;
-//     do
-//     {
-//         token = get_next_token();
-//         printf("Token: Type=%d, Value=%s, Line=%d\n", token.type, token.value, token.line);
-//     } while (token.type != TOKEN_EOF);
-
-//     fclose(source);
-// }
 
 const char *token_type_to_string(TokenType type)
 {
