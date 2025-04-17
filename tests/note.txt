@@ -1,0 +1,16 @@
+Summary of the Flow:
+1) Lexical Analysis (Already done) → Tokens
+
+2) Syntax Analysis (Parser) → Abstract Syntax Tree (AST)
+
+3) Semantic Analysis → Enriched AST with type information, symbol tables, scope data
+
+4) Intermediate Code Generation → Intermediate Code (e.g., three-address code)
+
+5) Optimization (Optional) → Optimized Intermediate Code
+
+6) Code Generation → Assembly/Machine Code
+
+7) Code Optimization (Optional) → Optimized Assembly/Machine Code
+
+8) Code Emission → Final Executable or Assembly Code

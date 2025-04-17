@@ -1,6 +1,0 @@
-// sorry my memory is weak so I have to write all this so I can have a look when I push the code
-git init
-git status
-git add .
-git commit -m "Updated changes in code"
-git push origin main

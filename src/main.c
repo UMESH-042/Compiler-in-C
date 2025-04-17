@@ -1,8 +1,17 @@
 
 #include "lexer.h"
+#include "parser.h"
 
 int main() {
     init_lexer("tests/test.c");
+
+  
+    // // parse the program and create the AST
+    // ASTNode *root = parse_program();
+
+    // // print the AST for debugging
+    // print_ast(root, 0);
+    
 
     Token token;
     do {
@@ -14,3 +23,5 @@ int main() {
     return 0;
 }
 
+
+// parser not complete yet will do tomorrow

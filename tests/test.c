@@ -1,21 +1,18 @@
 #include <stdio.h>
-#include "../src/lexer.h"
 
-#define MAX 100
+#define LIMIT 10
 
 int main() {
-    char message[] = "Hello, World!";
-    int num = 42;
-    float pi = 3.14;
+   
 
-    /* this
-        is multiline comment
-    */
-    
-    if (num >= MAX) {
-        printf("Number is large.\n");
+    if (1 > 0) {
+        printf("x is greater than y\n");
+    } else {
+        printf("x is not greater than y\n");
     }
-    // this is single line comment
+
+    
+    
 
     return 0;
 }
