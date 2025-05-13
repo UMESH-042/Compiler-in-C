@@ -2,17 +2,21 @@
 
 #define LIMIT 10
 
-int main() {
-   
+int main()
+{
 
-    if (1 > 0) {
+    if (1 > 0)
+    {
         printf("x is greater than y\n");
-    } else {
+    }
+    else
+    {
         printf("x is not greater than y\n");
     }
 
-    
-    
-
     return 0;
 }
+
+// int a;
+// a = 5;
+// a = a + 10;

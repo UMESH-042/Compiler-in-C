@@ -10,3 +10,9 @@ $ gcc -o lexer src/main.c src/lexer.c
 HP@BabaYaga MINGW64 /d/Projects/C Projects/CCompiler (main)
 $ ./lexer
 
+
+new commands after Parser and AST
+
+gcc -o compiler src/main.c src/lexer.c src/parser.c src/ast.c
+
+./compiler
